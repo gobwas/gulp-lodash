@@ -1,0 +1,38 @@
+{
+  "name": "gulp-lodash",
+  "version": "0.1.0",
+  "description": "Gulp Lodash usage",
+  "author": {
+    "name": "Sergey Kamardin",
+    "email": "gobwas@gmail.com",
+    "url": "https://github.com/gobwas"
+  },
+  "repository": "gobwas/gulp-lodash",
+  "license": "MIT",
+  "keywords": [
+    "gulp-lodash",
+    "gulpplugin",
+    "lodash",
+    "usage",
+    "custom",
+    "build",
+    "esvu",
+    "lodashsh",
+    "ast",
+    "esprima"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.5",
+    "inherits-js": "^0.1.0",
+    "is-my-json-valid": "^2.12.0",
+    "lodash": "^3.9.3",
+    "lodash-cli": "^3.9.3",
+    "lodashsh": "^0.1.0",
+    "vinyl": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "main": "./index.js"
+}
